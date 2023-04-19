@@ -1,0 +1,45 @@
+:root{
+    --gris-oscuro: #9BA4B4;
+    --blanco: #F1F6F9;
+    --azul-navy: #14274E;
+    --azul-gris: #394867;
+    /*tamaños de fuente*/
+
+}
+body{
+    font-family: 'Lobster', cursive;
+    margin: 0; 
+}
+header{
+    display: flex;
+    background-color: var(--gris-oscuro);
+    justify-content: space-between;
+}
+nav{
+    padding: 45px;
+}
+.lista{
+    display: flex;
+    list-style: none;
+}
+.lista li a{
+    text-decoration: none;
+    color: var(--blanco);
+    font-size: 30px;
+    font-weight: bold;
+}
+.lista li a:hover{
+    color: var(--azul-gris);
+    text-decoration: underline overline;
+    /* agregar linea de decoracion a las letras */
+}
+.lista li{
+    padding: 12px;
+}
+.logo{
+    margin: 0 0 0 24px;
+}
+.logo img{
+    width: 120px;
+    height: 180px;
+}
