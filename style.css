@@ -43,3 +43,48 @@ nav{
     width: 120px;
     height: 180px;
 }
+
+/*seccion de cortes disponibles*/ 
+.tarjetas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding: 0;
+}
+.tarjetas div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px var(--azul-navy);
+    margin: 0 20px;
+    border-radius: 16px;
+    width: 300px;
+}
+.tarjetas div:hover{
+    border: solid 4px #FFD700;
+}
+.tarjetas div h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 18px 0;
+}
+.tarjetas div p{
+    font-size: 18px;
+    font-weight: lighter;
+}
+.tarjetas figure{
+    margin: 0;
+}
+
+/* pie de pagina */
+footer{
+    background-color: black;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+footer img{
+    width: 225px;
+}
